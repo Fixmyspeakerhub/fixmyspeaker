@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Water Eject for iPhone 13 – Free Speaker Fix Tool</title>
+<meta name="description" content="Water eject tool tuned specifically for the iPhone 13's speaker grille layout. Free, no app, works directly in Safari or Chrome.">
+<link rel="canonical" href="https://fixmyspeaker.github.io/pages/water-eject-iphone-13.html">
+<meta property="og:title" content="Water Eject for iPhone 13 – Free Speaker Fix Tool">
+<meta property="og:description" content="Water eject tool tuned specifically for the iPhone 13's speaker grille layout. Free, no app, works directly in Safari or Chrome.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "name": "Water Eject for iPhone 13", "url": "https://fixmyspeaker.github.io/pages/water-eject-iphone-13.html", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any (Web Browser)", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "description": "Water eject tool tuned specifically for the iPhone 13's speaker grille layout. Free, no app, works directly in Safari or Chrome."}, {"@type": "HowTo", "name": "Water eject tool tuned for iPhone 13", "step": [{"@type": "HowToStep", "name": "Open in Safari", "text": "Safari handles the Web Audio API most reliably on iOS."}, {"@type": "HowToStep", "name": "Face down on cloth", "text": "Rest the bottom edge, where both speakers sit, on a soft towel."}, {"@type": "HowToStep", "name": "Run the full cycle", "text": "Let the 60 second tone finish, then test with a phone call or music."}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does this work through a case?", "acceptedAnswer": {"@type": "Answer", "text": "Silicone and most cases don't block sound output, but removing thick cases helps."}}, {"@type": "Question", "name": "Is 165Hz safe for iPhone 13 speakers?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, it's well within the speaker's normal frequency range and used at moderate volume."}}, {"@type": "Question", "name": "What if only one speaker sounds affected?", "acceptedAnswer": {"@type": "Answer", "text": "Run the cycle twice, angling each speaker toward the cloth in turn."}}]}]}
+</script>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a href="../index.html" class="brand">Fix<span>My</span>Speaker</a>
+    
+    <nav class="nav-links">
+      <a href="../pages/water-eject.html">Water Eject</a>
+      <a href="../pages/speaker-cleaner.html">Speaker Cleaner</a>
+      <a href="../pages/fix-my-mic-speaker.html">Mic Fix</a>
+      <a href="../pages/quick-tools.html">All Tools</a>
+      <a href="../blog/how-to-fix-water-damaged-phone.html">Blog</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="#tool" class="btn btn-primary">Open Tool</a>
+      <button class="menu-btn" aria-label="Menu">&#9776;</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom:20px">
+  <div class="wrap">
+    <div class="crumbs"><a href="../index.html">Home</a> / <a href="quick-tools.html">Tools</a> / Water eject tool tuned for iPhone 13</div>
+    <div class="eyebrow">iPhone 13</div>
+    <h1>Water eject tool tuned for iPhone 13</h1>
+    <p class="lead">The iPhone 13's dual bottom-firing speakers respond well to a steady 165Hz tone. This tool is calibrated for that exact grille spacing.</p>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="tool-box" id="tool" style="max-width:640px">
+      <div class="tool-modes" id="modeWrap"></div>
+      <div class="viz-frame"><canvas id="waveCanvas"></canvas></div>
+      <div class="tool-controls">
+        <button class="play-btn" id="playBtn" aria-label="Play">&#9658;</button>
+        <div class="tool-meta">
+          <div class="freq" id="freqLabel"></div>
+          <div class="timer" id="timerLabel">Tap play to begin</div>
+        </div>
+        <div class="vol-row">
+          <span style="font-size:12px;color:var(--gray2)">VOL</span>
+          <input type="range" id="volSlider" min="0" max="100" value="50">
+        </div>
+      </div>
+      <div class="safety-note">Keep volume moderate and hold your phone speaker-side down over a soft cloth. Stop immediately if you feel discomfort.</div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--bg2)">
+  <div class="wrap" style="max-width:640px">
+    <div class="section-head left"><div class="eyebrow">How to use it</div><h2>Three quick steps</h2></div>
+    <div class="steps">
+      <div class="step"><div class="step-num"></div><div><h3>Open in Safari</h3><p>Safari handles the Web Audio API most reliably on iOS.</p></div></div>
+<div class="step"><div class="step-num"></div><div><h3>Face down on cloth</h3><p>Rest the bottom edge, where both speakers sit, on a soft towel.</p></div></div>
+<div class="step"><div class="step-num"></div><div><h3>Run the full cycle</h3><p>Let the 60 second tone finish, then test with a phone call or music.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap" style="max-width:760px">
+    <div class="section-head left"><div class="eyebrow">FAQ</div><h2>Common questions</h2></div>
+    <div class="faq-item open"><div class="faq-q">Does this work through a case?<span class="chev">▾</span></div><div class="faq-a"><p>Silicone and most cases don't block sound output, but removing thick cases helps.</p></div></div>
+<div class="faq-item"><div class="faq-q">Is 165Hz safe for iPhone 13 speakers?<span class="chev">▾</span></div><div class="faq-a"><p>Yes, it's well within the speaker's normal frequency range and used at moderate volume.</p></div></div>
+<div class="faq-item"><div class="faq-q">What if only one speaker sounds affected?<span class="chev">▾</span></div><div class="faq-a"><p>Run the cycle twice, angling each speaker toward the cloth in turn.</p></div></div>
+  </div>
+</section>
+
+<section style="background:var(--bg2)">
+  <div class="wrap">
+    <div class="section-head left"><div class="eyebrow">Related</div><h2>More tools that might help</h2></div>
+    <div class="related-list">
+      <a href="water-eject-iphone-12.html">Water Eject for iPhone 12</a>
+<a href="apple-speaker-cleaner.html">Apple Speaker Cleaner</a>
+<a href="water-eject.html">Water Eject</a>
+<a href="speaker-cleaner.html">Speaker Cleaner</a>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand-name">Fix<span>My</span>Speaker</div>
+        <p class="footer-desc">Free acoustic speaker cleaning tools that remove water and dust from phone speakers using calibrated sound frequencies. No app, no download required.</p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Water Tools</div>
+        <a href="../pages/water-eject.html">Water Eject</a>
+        <a href="../pages/eject-water-from-speaker.html">Eject Water from Speaker</a>
+        <a href="../pages/fix-my-speaker-water.html">Fix My Speaker Water</a>
+        <a href="../pages/water-eject-iphone-13.html">Water Eject iPhone 13</a>
+        <a href="../pages/water-eject-iphone-12.html">Water Eject iPhone 12</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Cleaning Tools</div>
+        <a href="../pages/fix-my-speaker-dust.html">Fix My Speaker Dust</a>
+        <a href="../pages/speaker-cleaner.html">Speaker Cleaner</a>
+        <a href="../pages/speaker-dust-cleaning-sound.html">Speaker Dust Sound</a>
+        <a href="../pages/ear-speaker-cleaner-sound.html">Ear Speaker Cleaner</a>
+        <a href="../pages/fix-my-mic-speaker.html">Fix My Mic Speaker</a>
+        <a href="../pages/laptop-speaker-cleaner.html">Laptop Speaker Cleaner</a>
+        <a href="../pages/apple-speaker-cleaner.html">Apple Speaker Cleaner</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Site</div>
+        <a href="../pages/quick-tools.html">Quick Tools</a>
+        <a href="../blog/how-to-fix-water-damaged-phone.html">Blog</a>
+        <a href="../pages/about.html">About Us</a>
+        <a href="../pages/contact.html">Contact</a>
+        <a href="../pages/privacy-policy.html">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 FixMySpeaker — Free Acoustic Speaker Cleaning Tools</span>
+      <div><a href="../pages/privacy-policy.html">Privacy</a><a href="../pages/contact.html">Contact</a></div>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+window.TOOL_MODES = {"i13": {"name": "iPhone 13 Eject", "freqs": [165], "label": "165Hz", "color": "#00d4ff", "dur": 60}};
+window.TOOL_DEFAULT = 'i13';
+</script>
+<script src="../js/tool-engine.js"></script>
+</body>
+</html>
