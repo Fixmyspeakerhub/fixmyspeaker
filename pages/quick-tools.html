@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quick Tools – Every Speaker Fix in One Place</title>
+<meta name="description" content="Every FixMySpeaker mode, water, dust, mic, and volume, in a single switchable tool. Free, fast, no app needed.">
+<link rel="canonical" href="https://fixmyspeakerhub.github.io/fixmyspeaker/pages/quick-tools.html">
+<meta property="og:title" content="Quick Tools – Every Speaker Fix in One Place">
+<meta property="og:description" content="Every FixMySpeaker mode, water, dust, mic, and volume, in a single switchable tool. Free, fast, no app needed.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "name": "Quick Tools", "url": "https://fixmyspeakerhub.github.io/fixmyspeaker/pages/quick-tools.html", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any (Web Browser)", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "description": "Every FixMySpeaker mode, water, dust, mic, and volume, in a single switchable tool. Free, fast, no app needed."}, {"@type": "HowTo", "name": "Every tool, one switchable widget", "step": [{"@type": "HowToStep", "name": "Pick a mode from the tabs", "text": "Each tab switches to a different frequency profile instantly."}, {"@type": "HowToStep", "name": "Position your phone", "text": "Speaker-down on cloth for water and dust modes, near-ear for mic and earpiece needs."}, {"@type": "HowToStep", "name": "Run and repeat", "text": "Each mode can be repeated independently as many times as needed."}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is this the same tool repeated from other pages?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, this hub simply gathers every mode in one place for convenience."}}, {"@type": "Question", "name": "Which mode is most popular?", "acceptedAnswer": {"@type": "Answer", "text": "Smart Clean and Water Eject are the most used since water and mixed dust issues are most common."}}, {"@type": "Question", "name": "Can I bookmark this page instead of the others?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, this page alone covers everything the individual tool pages offer."}}]}]}
+</script>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a href="../index.html" class="brand">Fix<span>My</span>Speaker</a>
+    
+    <nav class="nav-links">
+      <a href="../pages/water-eject.html">Water Eject</a>
+      <a href="../pages/speaker-cleaner.html">Speaker Cleaner</a>
+      <a href="../pages/fix-my-mic-speaker.html">Mic Fix</a>
+      <a href="../pages/quick-tools.html">All Tools</a>
+      <a href="../blog/how-to-fix-water-damaged-phone.html">Blog</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="#tool" class="btn btn-primary">Open Tool</a>
+      <button class="menu-btn" aria-label="Menu">&#9776;</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom:20px">
+  <div class="wrap">
+    <div class="crumbs"><a href="../index.html">Home</a> / <a href="quick-tools.html">Tools</a> / Every tool, one switchable widget</div>
+    <div class="eyebrow">Quick tools hub</div>
+    <h1>Every tool, one switchable widget</h1>
+    <p class="lead">Skip the separate pages, this hub combines all cleaning modes into one widget so you can switch instantly between them.</p>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="tool-box" id="tool" style="max-width:640px">
+      <div class="tool-modes" id="modeWrap"></div>
+      <div class="viz-frame"><canvas id="waveCanvas"></canvas></div>
+      <div class="tool-controls">
+        <button class="play-btn" id="playBtn" aria-label="Play">&#9658;</button>
+        <div class="tool-meta">
+          <div class="freq" id="freqLabel"></div>
+          <div class="timer" id="timerLabel">Tap play to begin</div>
+        </div>
+        <div class="vol-row">
+          <span style="font-size:12px;color:var(--gray2)">VOL</span>
+          <input type="range" id="volSlider" min="0" max="100" value="50">
+        </div>
+      </div>
+      <div class="safety-note">Keep volume moderate and hold your phone speaker-side down over a soft cloth. Stop immediately if you feel discomfort.</div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--bg2)">
+  <div class="wrap" style="max-width:640px">
+    <div class="section-head left"><div class="eyebrow">How to use it</div><h2>Three quick steps</h2></div>
+    <div class="steps">
+      <div class="step"><div class="step-num"></div><div><h3>Pick a mode from the tabs</h3><p>Each tab switches to a different frequency profile instantly.</p></div></div>
+<div class="step"><div class="step-num"></div><div><h3>Position your phone</h3><p>Speaker-down on cloth for water and dust modes, near-ear for mic and earpiece needs.</p></div></div>
+<div class="step"><div class="step-num"></div><div><h3>Run and repeat</h3><p>Each mode can be repeated independently as many times as needed.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap" style="max-width:760px">
+    <div class="section-head left"><div class="eyebrow">FAQ</div><h2>Common questions</h2></div>
+    <div class="faq-item open"><div class="faq-q">Is this the same tool repeated from other pages?<span class="chev">▾</span></div><div class="faq-a"><p>Yes, this hub simply gathers every mode in one place for convenience.</p></div></div>
+<div class="faq-item"><div class="faq-q">Which mode is most popular?<span class="chev">▾</span></div><div class="faq-a"><p>Smart Clean and Water Eject are the most used since water and mixed dust issues are most common.</p></div></div>
+<div class="faq-item"><div class="faq-q">Can I bookmark this page instead of the others?<span class="chev">▾</span></div><div class="faq-a"><p>Yes, this page alone covers everything the individual tool pages offer.</p></div></div>
+  </div>
+</section>
+
+<section style="background:var(--bg2)">
+  <div class="wrap">
+    <div class="section-head left"><div class="eyebrow">Related</div><h2>More tools that might help</h2></div>
+    <div class="related-list">
+      <a href="speaker-cleaner.html">Speaker Cleaner</a>
+<a href="water-eject.html">Water Eject</a>
+<a href="fix-my-speaker-dust.html">Fix My Speaker Dust</a>
+<a href="fix-my-mic-speaker.html">Fix My Mic Speaker</a>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand-name">Fix<span>My</span>Speaker</div>
+        <p class="footer-desc">Free acoustic speaker cleaning tools that remove water and dust from phone speakers using calibrated sound frequencies. No app, no download required.</p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Water Tools</div>
+        <a href="../pages/water-eject.html">Water Eject</a>
+        <a href="../pages/eject-water-from-speaker.html">Eject Water from Speaker</a>
+        <a href="../pages/fix-my-speaker-water.html">Fix My Speaker Water</a>
+        <a href="../pages/water-eject-iphone-13.html">Water Eject iPhone 13</a>
+        <a href="../pages/water-eject-iphone-12.html">Water Eject iPhone 12</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Cleaning Tools</div>
+        <a href="../pages/fix-my-speaker-dust.html">Fix My Speaker Dust</a>
+        <a href="../pages/speaker-cleaner.html">Speaker Cleaner</a>
+        <a href="../pages/speaker-dust-cleaning-sound.html">Speaker Dust Sound</a>
+        <a href="../pages/ear-speaker-cleaner-sound.html">Ear Speaker Cleaner</a>
+        <a href="../pages/fix-my-mic-speaker.html">Fix My Mic Speaker</a>
+        <a href="../pages/laptop-speaker-cleaner.html">Laptop Speaker Cleaner</a>
+        <a href="../pages/apple-speaker-cleaner.html">Apple Speaker Cleaner</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Site</div>
+        <a href="../pages/quick-tools.html">Quick Tools</a>
+        <a href="../blog/how-to-fix-water-damaged-phone.html">Blog</a>
+        <a href="../pages/about.html">About Us</a>
+        <a href="../pages/contact.html">Contact</a>
+        <a href="../pages/privacy-policy.html">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 FixMySpeaker — Free Acoustic Speaker Cleaning Tools</span>
+      <div><a href="../pages/privacy-policy.html">Privacy</a><a href="../pages/contact.html">Contact</a></div>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+window.TOOL_MODES = {"smart": {"name": "Smart Clean", "freqs": [165, 200, 250, 300], "label": "165\u2013300Hz", "color": "#00d4ff", "dur": 60}, "water": {"name": "Water", "freqs": [165], "label": "165Hz", "color": "#1a6ef5", "dur": 45}, "dust": {"name": "Dust", "freqs": [200, 220, 240, 250], "label": "200\u2013250Hz", "color": "#f5a623", "dur": 45}, "mic": {"name": "Mic", "freqs": [800, 1500, 2200, 3000], "label": "800Hz\u20133kHz", "color": "#f5a623", "dur": 45}, "volume": {"name": "Volume", "freqs": [165, 220, 280, 320], "label": "165\u2013320Hz", "color": "#00d4ff", "dur": 60}};
+window.TOOL_DEFAULT = 'smart';
+</script>
+<script src="../js/tool-engine.js"></script>
+</body>
+</html>
